@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         }`}
       >
         {/* Background that fills the entire content area */}
-        <div className="flex flex-col min-h-screen bg-gradient-to-br from-green-100 via-white to-green-50">
+        <div className="flex flex-col min-h-screen bg-gradient-to-br from-green-200 via-white to-green-100">
           <Navbar
             toggleSidebar={toggleSidebar}
             isSidebarOpen={isSidebarOpen}
