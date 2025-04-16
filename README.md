@@ -17,6 +17,7 @@ FarmerConnect adalah aplikasi web yang bertujuan untuk membantu petani lokal men
 
 ### ✅ Backend (Express.js + MySQL)
 - **Autentikasi dengan JWT** → Petani dan pembeli dapat login dengan aman.
+- **Pengajuan Role** → Pengguna yang belum memiliki role (misalnya baru mendaftar) dapat mengajukan peran sebagai Petani atau Pembeli.
 - **Manajemen Produk** → Petani dapat menambahkan, mengedit, dan menghapus produk.
 - **Manajemen Pengguna & Peran** → Admin, Petani, dan Pembeli memiliki peran berbeda.
 - **Prediksi Cuaca** → Menggunakan API eksternal untuk memberikan informasi cuaca.
@@ -33,14 +34,13 @@ FarmerConnect adalah aplikasi web yang bertujuan untuk membantu petani lokal men
 ---
 
 ## 🔑 Role Pengguna
-
 | Role    | Hak Akses |
-|---------|----------|
+|---------|-----------|
 | **Admin** | Mengelola seluruh aspek aplikasi, termasuk pengguna dan produk. |
 | **Petani** | Menjual produk, melihat harga pasar, dan menerima notifikasi cuaca. |
 | **Pembeli** | Membeli produk dari petani dan melihat informasi pasar. |
+| _(Pending)_ | Pengguna yang baru mendaftar, harus mengajukan role sebelum dapat menggunakan fitur utama. |
 
----
 
 ## 📊 Alur & Gambaran
 
